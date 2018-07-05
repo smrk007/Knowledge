@@ -2,16 +2,23 @@
 
     Interesting tidbits...
 
-    The following characters...
-        .   )   (   ]   [   "   ,
-    All behave as whitespace when replacing macros. For example, with the following definition:
-        #define TEST() test
-    We experience these replacements:
-        "TEST()test" becomes "test test"
-        "TEST().test" becomes "test.test"
-        "testTEST()" becomes "testTEST()"
-        "test.TEST()" becomes "test.test"
-        "test()TEST()" becomes "test()test"
+        * The following characters...
+            .   )   (   ]   [   "   ,
+        All behave as whitespace when replacing macros. For example, with the following definition:
+            #define TEST() test
+        We experience these replacements:
+            "TEST()test" becomes "test test"
+            "TEST().test" becomes "test.test"
+            "testTEST()" becomes "testTEST()"
+            "test.TEST()" becomes "test.test"
+            "test()TEST()" becomes "test()test"
+        
+        * When placing a # before an argument in a macro:
+            #define Q(x) #x
+        The argument will become itself in quotations. Eg:
+            "Q(hello)" becomes ""hello""
+
+    
 
 Sources:
     [1]:   https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms 
