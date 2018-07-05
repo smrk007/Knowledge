@@ -1,8 +1,20 @@
 # C & C++ Macros Knowledge
 
-    
+    Interesting tidbits...
+
+    The the following characters...
+        .   )   (
+    All behave as whitespace when replacing macros. For example, with the following definition:
+        #define TEST() test
+    We experience these replacements:
+        "TEST()test" becomes "test test"
+        "TEST().test" becomes "test.test"
+        "testTEST()" becomes "testTEST()"
+        "test.TEST()" becomes "test.test"
+        "test()TEST()" becomes "test()test"
 
 Sources:
     [1]:   https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms 
     [2]:   https://www.cprogramming.com/tutorial/cpreprocessor.html 
+    [3]:   Personal experimentation in scratch repository.
     
