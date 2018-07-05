@@ -1,0 +1,12 @@
+Web Crawling
+
+    Restrictions
+        - Because sites do not want to be overwhelmed with web traffic, a 'robots.txt' file is
+        often included, specifying whose web crawlers will be allowed to crawl their site, or what
+        a web crawler is allowed to do on the site.
+        - This can be problematic, because it could enforce a monpoly for companies like Google who 
+        sometimes will have the only crawlers even capable of accessing sites.
+
+    Sources:
+        [1]:    https://news.ycombinator.com/item?id=17460749
+        [2]:    http://www.michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/
