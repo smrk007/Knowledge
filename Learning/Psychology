@@ -12,10 +12,13 @@ Psychology of Learning
             - Hence, actual practice is a stronger predictor of retention
     Learning Techniques:
         1.  Short, focused, and spaced out study sessions are better than long ones
-        2.  Studying a mixture of topics is better than studying one in exclusion
+        2.  Studying a mixture of topics is better than studying one in exclusion (interleaving studying)
         3.  Studying in a variety of different ways and environments is better than having one study space and technique 
         4.  Testing yourself and recall is better than looking up information while studying
             - Notecards, practice problems
+            - This technique is useful as a learning tool, not just as an assessment one
+        5.  Develop an effective agenda
+            - Focus on learning the things you struggled with most, and that you find most challenging
     Assessment of Learning:
         1.  Two major biases in determining the degree to which knowledge has been learned:
             - Foresight Bias: Belief that information will be easily accessed in the future, because it is currently fresh
@@ -25,8 +28,56 @@ Psychology of Learning
                 - Could be mitigated in part by testing for recall (Technique 4)
         2.  These biases can be mitigated by adhering to the techniques established in "Learning Techniques"
 
+    Personal Analysis of Study Techniques
+    
+        -   Notecards (Reinforcement Phase)
+            -   Coherence: NO - Very cut and dry, only one answer to a notecard.
+            -   Retrieval: YES - This is literally exactly what it is.
+            -   Varied Environments: YES - Doesn't demand high cognitive load, can be done anywhere.
+            -   Spaced Sessions: YES - Easy to pick up and do whenever.
+            -   Interleaving: YES - Easy to shift between tasks with notecards.
+            
+        -   Practice Problems   (Reinforcement Phase)
+            -   Coherence: YES - With challenging problems, you have a lot of time to think through things from fundamentals.
+            -   Retrieval: YES - Specifically for process based retrieval.
+            -   Varied Environments: NO - I generally need lots of focus here. Only specific environments.
+            -   Spaced Sessions: YES - Most all techniques should be lending to this.
+            -   Interleaving: YES - Most all techniques should be lending to this.
 
+        -   Paraphrasing Notes  (Acquisition Phase)
+            -   Coherence: YES - Probably one of the best ways, especially for learning initial concepts.
+            -   Retrieval: NO - I don't imagine this would be useful to do multiple times.
+            -   Varied Environments: NO - I imagine this would demand a focused environment.
+            -   Spaced Sessions: NO - This can really only be done once.
+            -   Interleaving: MAYBE - I generally thing this would be best to do once, but I could try interleaving.
 
+        -   Rewriting Proofs    (Reinforcement Phase)
+            -   Coherence: NO - Mostly memory based, allows one to solidify some process in their mind.
+            -   Retrieval: YES - It is memory based.
+            -   Varied Environments: NO - Generally demands a focused environment.
+            -   Spaced Sessions: YES
+            -   Interleaving: YES
+
+        -   Reading the Textbook    (Acquisition Phase)
+            -   Coherence: YES - Especially while taking notes and paraphrasing.
+            -   Retrieval: NO
+            -   Varied Environments: NO - Generally demands focus.
+            -   Spaced Sessions: YES
+            -   Interleaving: YES
+
+        -   Attending Lecture   (Acquisition Phase)
+            -   Coherence: YES - Adds new context from the professor.
+            -   Retrieval: NO
+            -   Varied Environments: NO
+            -   Spaced Sessions: YES
+            -   Interleaving: YES
+
+        -   Doing Side Projects (Reinforcement Phase)
+            -   Coherence: YES - Apply it to a new context.
+            -   Retrieval: YES - Demands recall to practical application.
+            -   Varied Environments: YES - Side projects can happen anywhere.
+            -   Spaced Sessions: YES
+            -   Interleaving: YES
 
     Sources:
         [1]:    http://www.excaliburtsa.org.uk/wp-content/uploads/2017/11/Self-regulated-learning-Bjork.pdf
