@@ -1,0 +1,37 @@
+Speech
+
+    -   Speech is non-discrete, being founded in the real world. Hence, to have a good model of
+        speech, one must take into consideration statistical noise and probability.
+        -   In spite of this, we impose our discrete abstractions of sound units (subphones and
+            diphones) upon sound to conform it to our models.
+        -   The three 'states' of a phone are as follows:
+            -   The preliminary sound, linking between the previous phone and the current
+            -   The stable part of the phone in the middle
+            -   The following sound, linking between the current and following phone
+    -   Voice Recognition: Works by splitting 'utterances' up, delimited by silences
+    -   Models of Speech Recognition:
+        -   Acoustic Model: Built using acoustic properties from every senone.
+        -   Phonetic Dictionary: A mapping from words to phones.
+        -   Language Model: A technique that adds the context of what's most likely to happen next
+            in a speech pattern to the search, greatly reducing the subspace of words to be
+            matched.
+
+    Notes:
+        Subword language model needed for vocabulary recognition
+
+    Vocabulary:
+        Phone:
+        Diphone:
+        Triphone:
+        Quinphone:
+        Senone:
+        Filler:
+        Utterance:
+        Feature:
+        Feature Vector:
+        Model:
+        Hidden Markov Model:
+        Acoustic Model:
+
+    Sources:
+        [1]:    https://cmusphinx.github.io/wiki/tutorialconcepts/
