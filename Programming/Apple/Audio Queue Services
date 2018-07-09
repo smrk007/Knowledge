@@ -1,0 +1,27 @@
+Audio Queue Services
+
+    -   Audio data moves into the buffer queue
+        -   AudioQueueNewInput is used to put data into queue
+    -   Buffer queue data is accessed through callback
+        -   Callback function can perform various actions (transfer data to PS?)
+    -   The data in a buffer structure is held in "mAudioData"
+    -   Audio Queue Memory Management
+        -   AudioqueueAllocateBuffer
+        -   AudioQueueDispose
+    -   Enqueueing: Adding a buffer to the queue
+    -   Callback
+        1.  Perform functions
+        2.  Return buffer to queue (AudioQueueEnqueueBuffer)
+    -   Audio destination can bbe an object in memory 
+    
+    -   Steps to adding recording functionality to an application
+        1   Define structure to manage state, format, and path information
+        2   Write audio queue callback function
+        3   (Optional) Write code to determine audio queue buffer size
+        4   Fill in custom structure (1) fields
+        5   Create audio queue and create buffers, as well as destination
+        6   Record 
+        7   End recording and dispose of queue 
+
+    Sources
+        [1]:    https://developer.apple.com/library/archive/documentation/MusicAudio/Conceptual/AudioQueueProgrammingGuide/Introduction/Introduction.html
